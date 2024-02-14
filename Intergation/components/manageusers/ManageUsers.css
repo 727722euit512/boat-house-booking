@@ -1,0 +1,49 @@
+/* ManageUsers.css */
+.manage-users-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  .user-list {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .user-details {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  /* Add more styles as needed */
+  
